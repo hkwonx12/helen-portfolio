@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&family=Roboto:wght@100&family=Sora&display=swap');
+
+.home-page {
+    .text-zone {
+        position: absolute;
+        left: 10%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 40%;
+        max-height: 90%;
+
+    }
+
+    h1 {
+        color: #66c0dc;
+        font-size: 53px;
+        margin: 0;
+        font-family:'Sora';
+        font-weight: 400;
+
+        img {
+            width: 50px;
+            height:auto;
+
+        }
+    }
+
+    h2 {
+        color: #66c0dc;
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 11px;
+        font-family: 'sans-serif';
+        letter-spacing: 3px;
+        animation: fadeIn 1s 1.8s backwards;
+    }
+
+    .flat-button {
+        color: #66c0dc;
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 4px;
+        font-family: sans-serif;
+        text-decoration: none;
+        padding: 10px 18px;
+        border: 1px solid #66c0dc;
+        margin-top: 25px;
+        float: left;
+        animation: fadeIn 1s 1.8s backwards;
+        white-space: nowrap;
+
+        &:hover {
+            background: #DAF1FE;
+            color: #333;
+
+        }
+    }
+
+    .profile {
+        z-index: 0;
+        width: auto;
+        height: 609px;
+        position: absolute;
+        top: 0;
+        right: 15%;
+        bottom: 0;
+        left: auto;
+        margin: auto;
+        animation: fadeIn 1s 1.8s backwards;
+
+    }
+
+}
